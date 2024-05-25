@@ -1,0 +1,123 @@
+.c {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  font-weight: bold;
+  color:cadetblue;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.Blog {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 26px;
+  padding: 10px;
+  gap: 20px;
+  border: 5px inset gainsboro;
+}
+
+.bl {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 10px;
+}
+.Blog .Blog-left .avator {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr {
+  width: 190px;
+  height: 2px;
+}
+
+.bio {
+  margin-top: 30px;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(130, 77, 77);
+}
+
+.bio span ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.bio span ul li a {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  grid-column: 12px;
+}
+
+.Blog .Blog-left {
+  width: 100%;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.soial {
+  display: flex;
+  justify-content: stretch;
+  gap: 10px;
+}
+svg {
+  width: 40px;
+  height: 40px;
+}
+.back {
+  position: relative;
+}
+.back svg {
+  width: 20px;
+  height: 20px;
+}
+.related-articles {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+}
+
+.related-articles h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.related-articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+.related-articles li {
+  margin-bottom: 10px;
+}
+
+.related-articles a {
+  text-decoration: none;
+  color: rgb(130, 77, 77);
+  transition: color 0.3s;
+  font-size: medium;
+}
+
+.related-articles a:hover {
+  color: #588385;
+}
+

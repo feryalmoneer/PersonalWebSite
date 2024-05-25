@@ -1,0 +1,77 @@
+
+.spa {
+  font-weight: bold;
+  font-size:x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(186, 193, 194);
+  text-align: center;
+  text-shadow: 0px 1px black;
+  position: relative;
+  left: 4px;
+}
+
+form{
+    width: 50%;
+    height: 400px;
+    background-color:  rgb(31, 34, 34);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: stretch;
+    gap:20px;
+    border-radius: 15px;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+}
+form input{
+    border-radius: 5px;
+    border: none;
+    padding: none;
+    outline: none;
+    padding-left: 46px;
+    height: 30px;
+}.bb{
+    border-radius: 5px;
+    color: cadetblue;
+    align-items: center;
+    margin-left: 50px;
+    padding-right: 21px;
+    align-items: center;
+    font-size: large;
+    font-family: cursive;
+    width: fit-content;
+}
+
+  svg{
+    width: 20px; height: 20px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  html, body { height: 100%; }
+  body {
+    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #568487 100%);
+    overflow: hidden;
+  }
+  .wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+    
+  }
+
+
+
+
+
+
+
+
+  .back svg {
+    width: 20px;
+    height: 20px;
+  }
